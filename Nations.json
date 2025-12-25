@@ -1,0 +1,273 @@
+{
+  "name": "Thaloric Hydraulic Empire",
+  "cityNames": ["Reedbank","Lowford","Rivermeet","Willow Bend","Floodwatch","Mudharbor"],
+  "uniques": [
+    "River tiles provide +1 Food",
+    "Farms adjacent to Rivers provide +1 Production",
+    "Cities founded on Rivers gain +10% City Defense Strength"
+  ],
+  "uniqueUnits": {
+    "Spearman": {
+      "name": "River Levy",
+      "strength": 11,
+      "uniques": [
+        "+10% Combat Strength when defending",
+        "Ignores movement penalty when crossing Rivers"
+      ]
+    },
+    "Archer": {
+      "name": "Bank Guard",
+      "rangedStrength": 8,
+      "strength": 5,
+      "uniques": [
+        "+10% Combat Strength when defending in Cities",
+        "Can move after attacking"
+      ]
+    }
+  }
+}
+{
+  "name": "Iron Crown of Karnhelm",
+  "cityNames": ["Stonewatch","Highrest","Cliffhold","Ironrise","Ridgehome"],
+  "uniques": [
+    "Hill tiles provide +1 Production",
+    "Cities adjacent to Mountains gain +10% City Defense Strength",
+    "Mines on Hills gain +1 Production"
+  ],
+  "uniqueUnits": {
+    "Warrior": {
+      "name": "Hill Guard",
+      "strength": 9,
+      "uniques": [
+        "+10% Combat Strength on Hills",
+        "Receives -10% damage when defending"
+      ]
+    },
+    "Swordsman": {
+      "name": "Stoneblade",
+      "strength": 15,
+      "uniques": [
+        "+10% Combat Strength when attacking Cities",
+        "+10% Combat Strength on Hills"
+      ]
+    }
+  }
+}
+{
+  "name": "Dominion of the Open Host",
+  "cityNames": ["Openwind","Longride","Grassreach","Skycamp","Waypost"],
+  "uniques": [
+    "Plains tiles provide +1 Food",
+    "Land units gain +1 Movement when starting turn on Plains",
+    "Units gain +10% Combat Strength when fighting on Plains"
+  ],
+  "uniqueUnits": {
+    "Scout": {
+      "name": "Steppe Pathfinder",
+      "movement": 3,
+      "uniques": [
+        "Ignores movement penalty on Plains",
+        "+10% Combat Strength when attacking"
+      ]
+    },
+    "Horseman": {
+      "name": "Plains Rider",
+      "strength": 13,
+      "uniques": [
+        "+10% Combat Strength on Plains",
+        "+1 Movement"
+      ]
+    }
+  }
+}
+{
+  "name": "Verdant Dominion of Brannoc",
+  "cityNames": ["Barkhold","Greenreach","Timberrest","Leafwatch","Rootstead"],
+  "uniques": [
+    "Forest tiles provide +1 Production",
+    "Units gain +10% Combat Strength in Forest tiles",
+    "Forests cost no extra movement for friendly units"
+  ],
+  "uniqueUnits": {
+    "Archer": {
+      "name": "Woodland Bowman",
+      "rangedStrength": 8,
+      "uniques": [
+        "+10% Combat Strength in Forests",
+        "Ignores movement penalty in Forests"
+      ]
+    },
+    "Spearman": {
+      "name": "Forest Guard",
+      "strength": 11,
+      "uniques": [
+        "+10% Combat Strength in Forests",
+        "+10% Combat Strength when defending"
+      ]
+    }
+  }
+}
+{
+  "name": "Empire of the Crimson Caravan",
+  "cityNames": ["Sunwell","Sandcross","Oasis Gate","Dryhaven","Saltmarch"],
+  "uniques": [
+    "Desert tiles adjacent to cities provide +1 Food",
+    "Oasis tiles provide +1 Production",
+    "Units gain +10% Combat Strength when fighting in Desert"
+  ],
+  "uniqueUnits": {
+    "Spearman": {
+      "name": "Sand Pike",
+      "strength": 11,
+      "uniques": [
+        "+10% Combat Strength in Desert",
+        "Ignores movement penalty in Desert"
+      ]
+    },
+    "Horseman": {
+      "name": "Caravan Rider",
+      "strength": 13,
+      "uniques": [
+        "+10% Combat Strength when escorting civilians",
+        "+1 Movement"
+      ]
+    }
+  }
+}
+{
+  "name": "Thalassic Empire of Velskar",
+  "cityNames": ["Saltport","Wavewatch","Shellbay","Tidemouth","Brinehaven"],
+  "uniques": [
+    "Coast tiles provide +1 Food",
+    "Naval units gain +1 Movement in Coastal waters",
+    "Naval units gain +10% Combat Strength in Coastal waters"
+  ],
+  "uniqueUnits": {
+    "Trireme": {
+      "name": "Tide Galley",
+      "strength": 11,
+      "movement": 4,
+      "uniques": [
+        "+10% Combat Strength in Coastal waters",
+        "+1 Movement"
+      ]
+    },
+    "Archer": {
+      "name": "Harbor Guard",
+      "rangedStrength": 8,
+      "strength": 5,
+      "uniques": [
+        "+10% Combat Strength when defending Cities",
+        "+10% Combat Strength near Coast"
+      ]
+    }
+  }
+}
+{
+  "name": "Dominion of the Black Marsh",
+  "cityNames": ["Bogrest","Reedfen","Stillwater","Mirehold","Driftbank"],
+  "uniques": [
+    "Marsh tiles provide +1 Food",
+    "Units ignore movement penalties in Marsh",
+    "Units gain +10% Combat Strength when fighting in Marsh"
+  ],
+  "uniqueUnits": {
+    "Spearman": {
+      "name": "Fen Spear",
+      "strength": 11,
+      "uniques": [
+        "+10% Combat Strength in Marsh",
+        "Ignores movement penalty in Marsh"
+      ]
+    },
+    "Scout": {
+      "name": "Bog Runner",
+      "strength": 5,
+      "uniques": [
+        "Can move after attacking",
+        "+10% Combat Strength in Marsh"
+      ]
+    }
+  }
+}
+{
+  "name": "Iron Ascendancy of Rothmar",
+  "cityNames": ["Copperhold","Anvilrest","Forgebank","Redstone","Hammerfall"],
+  "uniques": [
+    "Mine resource tiles provide +1 Production",
+    "Strategic resource tiles provide +1 Production",
+    "Cities with at least one Mine gain +10% Production"
+  ],
+  "uniqueUnits": {
+    "Swordsman": {
+      "name": "Forge Infantry",
+      "strength": 15,
+      "uniques": [
+        "+10% Combat Strength when attacking",
+        "+10% Combat Strength near Mines"
+      ]
+    },
+    "Catapult": {
+      "name": "Siege Ram",
+      "strength": 9,
+      "uniques": [
+        "+10% Combat Strength when attacking Cities",
+        "Receives -10% damage from City attacks"
+      ]
+    }
+  }
+}
+{
+  "name": "Empire of the Frozen Crown",
+  "cityNames": ["Frosthold","Icewatch","Snowreach","Coldford","Whitecamp"],
+  "uniques": [
+    "Tundra tiles provide +1 Food",
+    "Snow tiles provide +1 Production",
+    "Units gain +10% Combat Strength in Tundra and Snow"
+  ],
+  "uniqueUnits": {
+    "Warrior": {
+      "name": "Ice Guard",
+      "strength": 9,
+      "uniques": [
+        "+10% Combat Strength in Tundra and Snow",
+        "Receives -10% damage when defending"
+      ]
+    },
+    "Spearman": {
+      "name": "Frost Pike",
+      "strength": 11,
+      "uniques": [
+        "+10% Combat Strength in Tundra and Snow",
+        "+10% Combat Strength when defending"
+      ]
+    }
+  }
+}
+{
+  "name": "Aurelian Federal Empire",
+  "cityNames": ["Plainrest","Hearthfield","Openhall","Broadmead","Council Ford"],
+  "uniques": [
+    "Plains tiles provide +1 Food",
+    "Roads and Railroads cost -25% Maintenance",
+    "Cities connected to the Capital gain +10% Production"
+  ],
+  "uniqueUnits": {
+    "Swordsman": {
+      "name": "Legate Infantry",
+      "strength": 15,
+      "uniques": [
+        "+10% Combat Strength when adjacent to another unit",
+        "+10% Combat Strength when attacking"
+      ]
+    },
+    "Pikeman": {
+      "name": "Civic Pike",
+      "strength": 16,
+      "uniques": [
+        "+10% Combat Strength when defending Cities",
+        "+10% Combat Strength against Mounted units"
+      ]
+    }
+  }
+    }
